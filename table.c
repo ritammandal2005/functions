@@ -1,19 +1,15 @@
 #include<stdio.h>
-int sum( int a,int b);
-void printTable(int n);
+void printTable(int );
 int main()
 {
 
     int n;
     printf("Enter number : ");
     scanf("%d",&n);
-   
+       
    printTable (n);
 
  return 0;
-}
-int sum(int x,int y) {
-    return x + y;
 }
 void printTable(int n)
      {
